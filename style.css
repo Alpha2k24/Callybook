@@ -118,12 +118,12 @@ body {
     nav ul{list-style:none;margin:0;padding:0}
     nav ul li{margin-bottom:10px}
     section{padding:20px}
-    #img1{width:205px}
-    #img2{width:205px}
+    #img1{width:190px}
+    #img2{width:190px}
     #sobre{margin:20px;margin-bottom:10px;background-color: #ccc}
-    #comprar{margin:20px;margin-top:10px;background-color: rgba(0, 0, 0, 0.6);color: #ccc}
+    #comprar{margin:20px;margin-top:0px;background-color: rgba(0, 0, 0, 0.6);color: #ccc}
     #citacao{background-color:#f0f8ff}
-    #fp{display:block;text-align:center;padding:20px}
+    #fp{display:block;text-align:center;padding:20px;margin-bottom:10px}
     .imgtext{display:block;text-align:center;margin-bottom:20px}
     h2{text-align:center;margin-top:20px}
     p{font-size:16px;margin-top:10px}
