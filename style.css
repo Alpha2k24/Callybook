@@ -32,6 +32,11 @@ nav ul li a {
   text-decoration: none;
   color: #1f2c39; /* Tom de azul mais escuro */
 }
+a {
+  text-decoration: none;
+  color: #1f2c39; /* Tom de azul mais escuro */
+}
+
 
 section {
   padding: 40px;
@@ -60,10 +65,14 @@ section {
 }
 
 #fp {
-  display: flex;
+  display:flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  gap: 15px;
+}
+#fp:hover {
+  color: burlywood;
 }
 
 .imgtext {
@@ -181,9 +190,10 @@ footer {
   #fp {
       display: block;
       text-align: center;
-      padding: 20px;
       padding-bottom: -20px;
       margin-bottom: -20px;
+      height: auto; /* Ou qualquer outra altura desejada para telas menores */
+      padding: 20px; /* Adicionando algum espaço ao redor do conteúdo */
   }
   
   .imgtext {
@@ -213,7 +223,7 @@ footer {
       display: block;
       position: static;
   }
-
+  
   footer {
       text-align: center;
       background-color: #001f33; /* Tom de azul mais escuro */
@@ -222,3 +232,6 @@ footer {
       font-size: 12px;
   }
 }
+
+
+
