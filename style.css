@@ -1,139 +1,225 @@
-
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: linear-gradient(45deg, #ffcc66, #6699ff);
-  }
-  
-  header {
-    background-image: linear-gradient(90deg, #ffcc66, #6699ff);
+    background-image: linear-gradient(45deg, #b2863c, #3e65a0);
+}
+
+header {
+    background-image: linear-gradient(90deg, #b2863c, #3e65a0);
     padding: 20px;
     font-size: 20pt;
-    color: #daa520;
-  }
-  
-  nav {
+    color: #8b6914;
+}
+
+nav {
     text-align: right;
     padding: 20px;
-  }
-  
-  nav ul {
+}
+
+nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
-  }
-  
-  nav ul li {
+}
+
+nav ul li {
     display: inline;
     margin-right: 20px;
-  }
-  
-  nav ul li a {
+}
+
+nav ul li a {
     text-decoration: none;
-    color: #333;
-  }
-  
-  section {
+    color: #222; /* Alterado para um tom mais escuro */
+}
+
+section {
     padding: 40px;
-  }
-  
-  #sobre {
+}
+
+#sobre {
     margin: 50px;
-    background-color: #ccc;
-  }
-  
-  #comprar {
+    background-color: #999; /* Alterado para um tom mais escuro */
+}
+
+#comprar {
     margin: 150px;
-    background-color: rgba(0, 0, 0, 0.6);
-    color: #ccc;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #999; /* Alterado para um tom mais escuro */
     margin-top: 0;
-  }
-  
-  #citacao {
-    background-color: #f0f8ff;
-  }
-  
-  #wpp {
+}
+
+#citacao {
+    background-color: #d9e6f4;
+}
+
+#wpp {
     margin-top: -56px;
     margin-left: 296px;
     position: absolute;
-  }
-  
-  #fp {
+}
+
+#fp {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-  }
-  
-  .imgtext {
+}
+
+.imgtext {
     display: flex;
     gap: 10px;
-  }
-  
-  h2 {
+}
+
+h2 {
     text-align: center;
-  }
-  
-  p {
+}
+
+p {
     font-size: 20px;
     margin-top: 20px;
-  }
-  
-  button {
+}
+
+button {
     font-size: 13pt;
     font-style: italic;
-    background-color: #ff6600;
+    background-color: #b24700; /* Alterado para um tom mais escuro */
     border-radius: 10px;
     height: 50px;
     width: 214px;
     margin-top: -20px;
     margin-left: 40px;
     position: absolute;
-  }
-  
-  button:active {
-    background-color: #ff3300;
-  }
-  
-  button:hover {
-    background-color: #ff9933;
+}
+
+button:active {
+    background-color: #801c00; /* Alterado para um tom mais escuro */
+}
+
+button:hover {
+    background-color: #993d00; /* Alterado para um tom mais escuro */
     cursor: pointer;
-  }
-  
-  footer {
+}
+
+footer {
     text-align: center;
-    background-color: #333;
-    color: #fff;
+    background-color: #222;
+    color: #ccc;
     padding: 10px;
-  }
-  
-  @media (max-width: 600px){
-    body{font-family:Arial,sans-serif;margin:0;padding:0;background-image: linear-gradient(45deg, #ffcc66, #6699ff);
+}
+
+@media (max-width: 600px) {
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-image: linear-gradient(45deg, #b28946, #3350a3);
     }
-    header{background-image: linear-gradient(90deg, #ffcc66, #6699ff);padding:10px;font-size:16pt;color: #daa520;}
-    nav{text-align:center;padding:10px}
-    nav ul{list-style:none;margin:0;padding:0}
-    nav ul li{margin-bottom:10px}
-    a{text-decoration:none}
-    section{padding:20px}
-    #img1{width:200px}
-    #img2{width:200px}
-    #img5{margin-top:70px}
-    #sobre{margin:20px;margin-bottom:10px;background-color: #ccc}
-    #comprar{margin:20px;margin-top:1px;background-color: rgba(0, 0, 0, 0.6);color: #ccc}
-    #citacao{background-color:#f0f8ff}
+    
+    header {
+        background-image: linear-gradient(90deg, #b28946, #3350a3);
+        padding: 10px;
+        font-size: 16pt;
+        color: #8b6914;
+    }
+    
+    nav {
+        text-align: center;
+        padding: 10px;
+    }
+    
+    nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    nav ul li {
+        margin-bottom: 10px;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    section {
+        padding: 20px;
+    }
+    
+    #img1, #img2 {
+        width: 200px;
+    }
+    
+    #img5 {
+        margin-top: 70px;
+    }
+    
+    #sobre {
+        margin: 20px;
+        margin-bottom: 10px;
+        background-color: #999;
+    }
+    
+    #comprar {
+        margin: 20px;
+        margin-top: 1px;
+        background-color: rgba(0, 0, 0, 0.8);
+        color: #999;
+    }
+    
+    #citacao {
+        background-color: #d9e6f4;
+    }
+    
     #wpp {
-    margin-top: -56px;
-    margin-left: 200px;
-    position: absolute;
-      }
-    #fp{display:block;text-align:center;padding:20px;padding-bottom:-20px,;margin-bottom:-20px }
-    .imgtext{display:block;text-align:center;margin-bottom:20px}
-    h2{text-align:center;margin-top:20px}
-    p{font-size:16px;margin-top:10px}
-    button{font-size:12pt;font-style:italic;background-color: #ff6600;border-radius:10px;height:40px;width:auto;margin:10px auto;display:block;position:static}
-    footer{text-align:center;background-color:#333;color:#fff;padding:10px;font-size:12px}}
+        margin-top: -56px;
+        margin-left: 200px;
+        position: absolute;
+    }
+    
+    #fp {
+        display: block;
+        text-align: center;
+        padding: 20px;
+        padding-bottom: -20px;
+        margin-bottom: -20px;
+    }
+    
+    .imgtext {
+        display: block;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    h2 {
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    p {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    
+    button {
+        font-size: 12pt;
+        font-style: italic;
+        background-color: #b24700;
+        border-radius: 10px;
+        height: 40px;
+        width: auto;
+        margin: 10px auto;
+        display: block;
+        position: static;
+    }
+    
+    footer {
+        text-align: center;
+        background-color: #222;
+        color: #ccc;
+        padding: 10px;
+        font-size: 12px;
+    }
+}
+
   
